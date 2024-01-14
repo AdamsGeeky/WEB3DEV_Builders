@@ -1,4 +1,7 @@
 # Devtools2024
+
+> Empowering the Future with Safe, Concurrent, and Performant Code
+
 ### Week 1: Introduction to Rust and Basic Concepts
 - [x] **Day 1-2: Introduction to Rust**
   - Overview of Rust and its use cases
