@@ -1,57 +1,118 @@
-Month 1: Foundations
+# Introduction to Rust
 
-Week 1: Introduction to Rust
+[Rust Core Concenpt](../Core/README.md)
 
-Essential Concepts: Understand the core building blocks of Rust, such as ownership, borrowing, lifetime annotations, and error handling.
-Installation and Setup: Get your development environment set up with Rust and the necessary tools (e.g., Cargo, IDE/text editor).
-Hands-on: Build simple projects to solidify your grasp of basic syntax, data types, control flow, and functions.
-Week 2: Diving into Cryptography
+### Project 1 Start
 
-Elliptic Curve Cryptography (ECC): Explore the fundamentals of ECC, including curves, points, and operations like addition, scalar multiplication, and point compression.
-Hashing and Signatures: Learn how hashing functions work (SHA-256, SHA-3) and create your own simple signature scheme using ECC.
-Hands-on: Implement basic cryptographic primitives in Rust using the ring crate, focusing on elliptic curve operations and signature generation/verification.
-Week 3: Bitcoin Fundamentals
+- **Project**: Build a CLI application for tracking cryptocurrency transactions.
 
-Understanding Bitcoin: Delve into the core concepts of Bitcoin, including the blockchain, consensus mechanisms (Proof of Work), transactions, and wallets.
-Bitcoin Scripting: Learn how to write Bitcoin scripts, which define conditions for spending funds, using pseudocode or a simplified language.
-Hands-on: Create basic Bitcoin transactions in Rust using the bitcoin crate, simulating sending and receiving coins.
-Week 4: Exploring Bitcoin Libraries
+## Blockchain Basics and Implementation
 
-Advanced Rust Concepts: Introduce more advanced Rust topics like generics, iterators, and error handling in the context of Bitcoin development.
-Advanced Cryptography: Explore public-key cryptography (RSA, ECDSA) and digital signatures in more depth.
-Hands-on: Build a more complex Bitcoin transaction with multiple inputs and outputs, leveraging advanced Rust features and the bitcoin crate.
-Month 2: Intermediate Projects
+### Blockchain Fundamentals
 
-Week 5: Simple Bitcoin Wallet
+- **Why**: To understand the backbone of cryptocurrency.
+- **What**: Learn blockchain concepts like blocks, chains, and hashing.
+- **How**: Implement a simple blockchain.
 
-Design and Implementation: Create a basic Bitcoin wallet that can generate private keys, addresses, and signed transactions.
-Testing and Security: Implement unit tests to ensure wallet functionality and address potential security vulnerabilities.
-Hands-on: Build your own simple Bitcoin wallet in Rust, integrating cryptographic operations, transaction creation, and security measures.
-Week 6: Multi-Signature Wallets
+### Consensus Mechanisms
 
-Multi-Sig Concepts: Understand the benefits and use cases of multi-signature wallets, where multiple keys are required to spend funds.
-Implementation: Build a multi-signature wallet in Rust, handling key generation, address derivation, and transaction signing by multiple parties.
-Hands-on: Implement a multi-signature wallet in Rust, exploring the bitcoin-multisig crate for efficient multi-sig operations.
-Week 7: Bitcoin Scripting in Rust
+- **Why**: To ensure network agreement.
+- **What**: Learn about Proof of Work (PoW) and Proof of Stake (PoS).
+- **How**: Implement a basic PoW algorithm.
 
-Advanced Scripting: Learn more advanced Bitcoin scripting techniques, including P2PKH, P2SH, and OP_RETURN for data storage.
-Implementation: Write custom Bitcoin scripts in Rust, leveraging the bitcoin crate's scripting capabilities.
-Hands-on: Create custom Bitcoin scripts using Rust, unlocking more advanced transaction functionalities.
-Week 8: Exploring the Bitcoin Network
+###  Project 2 Start
 
-Bitcoin Node: Understand the role of Bitcoin nodes, their communication protocols, and how they maintain the network.
-Network Interactions: Learn how to interact with the Bitcoin network using libraries like bitcoincore-rpc to send/receive transactions and query data.
-Hands-on: Develop a Rust application that interacts with the Bitcoin network, fetching information or broadcasting transactions.
-Month 3: Advanced Topics and Projects
+- **Project**: Extend the blockchain implementation with a PoW consensus mechanism.
 
-Week 9: Security Best Practices
+## Week 4: Cryptographic Principles
 
-Hardening Your Code: Learn essential security practices for writing secure Bitcoin applications, including input validation, error handling, and sandboxing.
-Auditing and Testing: Understand the importance of code review, vulnerability scanning, and fuzz testing for security assurance.
-Hands-on: Audit your Bitcoin projects for potential security vulnerabilities and implement best practices to mitigate them.
-Week 10: Lightning Network
+###  Hash Functions and Encryption
 
-Understanding Lightning: Explore the Lightning Network, a second-layer scaling solution for Bitcoin, and its core concepts.
-Lightning Implementation: Learn how to build Lightning Network applications in Rust, using crates like lightning-rpc and rust-lightning.
-Hands-on: Create a simple Lightning Network application in Rust, sending and receiving payments through the Lightning Network.
-Week 11: Off-Chain Data and Privacy
+- **Why**: To secure data.
+- **What**: Learn about hash functions and encryption.
+- **How**: Implement SHA-256 hashing and basic encryption.
+
+### Public-Key Cryptography
+
+- **Why**: To ensure secure transactions.
+- **What**: Learn about public and private keys.
+- **How**: Implement a simple public-key cryptography system.
+
+### Digital Signatures
+
+- **Why**: To verify transaction authenticity.
+- **What**: Learn about digital signatures.
+- **How**: Implement digital signatures for transactions.
+- **Project**: Secure the blockchain with digital signatures.
+
+## Smart Contracts and DApps
+
+### Smart Contracts Basics
+
+- **Why**: To automate agreements.
+- **What**: Learn what smart contracts are and how they work.
+- **How**: Implement a basic smart contract in Rust.
+
+### WebAssembly (Wasm)
+
+- **Why**: To run Rust code on the web.
+- **What**: Learn about WebAssembly and how to compile Rust to Wasm.
+- **How**: Compile a Rust smart contract to Wasm.
+
+### Project 3 Start
+
+- **Project**: Build a simple decentralized application (DApp) using Rust and WebAssembly.
+
+## Building a Blockchain with Rust
+
+### Introduction to Substrate
+
+- **Why**: To leverage existing blockchain frameworks.
+- **What**: Learn about Substrate for building blockchains.
+- **How**: Set up a basic Substrate blockchain.
+- **Resources**: [Substrate Developer Hub](https://substrate.dev/)
+
+### Custom Blockchain Development
+
+- **Why**: To create specialized blockchain solutions.
+- **What**: Customize a Substrate-based blockchain.
+- **How**: Implement custom logic and modules.
+
+### Project 4 Start
+
+- **Project**: Develop a custom blockchain using Substrate with features like token transfer.
+
+## Integration and Security
+
+### Interoperability
+
+- **Why**: To enable cross-blockchain communication.
+- **What**: Learn about cross-chain communication techniques.
+- **How**: Implement a basic blockchain bridge.
+
+### Security in Blockchain
+
+- **Why**: To protect against attacks.
+- **What**: Understand common blockchain security issues.
+- **How**: Implement security measures in the custom blockchain.
+
+### Project 5 Start
+
+- **Project**: Secure and integrate the custom blockchain with existing systems.
+
+## Final Projects and Review
+
+### Performance Optimization
+
+- **Why**: To ensure efficient operation.
+- **What**: Learn about performance tuning in Rust.
+- **How**: Profile and optimize the custom blockchain.
+
+### Capstone Project
+
+- **Project**: Build a comprehensive cryptocurrency platform combining blockchain, smart contracts, and DApps.
+
+### Documentation and Deployment
+
+- **Why**: To ensure usability and maintainability.
+- **What**: Document the capstone project and deploy it.
