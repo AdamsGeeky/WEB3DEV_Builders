@@ -1,3 +1,4 @@
+mod alike;
 // Scope is a block of code that can be accessed from within that block.
 fn main() {
     let x = 5;
