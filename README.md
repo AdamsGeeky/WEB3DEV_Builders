@@ -5,8 +5,7 @@ Welcome to my Web3 App Development Repository! This repository documents my expl
 ## Topics Covered  
 
 ### **Blockchain Basics**  
-- Fundamentals of blockchain and distributed ledger technology.  
-- Understanding key concepts like consensus mechanisms (e.g., PoW, PoS) and smart contracts.  
+- [Fundamentals of blockchain and distributed ledger technology](./basic/README.md)  
 
 ### **Programming for Web3**  
 - **Rust**: Developing secure and high-performance blockchain applications.  
