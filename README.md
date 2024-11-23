@@ -36,7 +36,7 @@ To solidify my learning
 
 ## Goals  
 This repository is a resource for:  
-- Showcasing my Web3 app development journey through well-documented projects.  
+- tracking my Web3 app development journey through well-documented projects.  
 - Providing insights for developers and learners interested in decentralized technologies.  
 
 Feel free to explore, learn, and contribute as I dive deeper into Web3 app development! 🌐
